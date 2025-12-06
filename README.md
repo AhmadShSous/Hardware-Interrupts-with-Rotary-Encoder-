@@ -30,6 +30,14 @@ This project demonstrates how to use **hardware interrupts** on the Arduino to r
 
 ---
 
+##  Simulation (TinkerCad)
+
+You can view and test the full circuit and code on TinkerCad:  
+
+ *TinkerCad Project Link:*  
+*https://www.tinkercad.com/things/6MDvf5pSmuo-q3ass/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard*
+
+
 ##  How It Works
 
 ### **1. Hardware Interrupt**
@@ -37,12 +45,3 @@ The encoder's Channel A triggers `handleEncoder()` on every **rising edge**:
 
 ```cpp
 attachInterrupt(digitalPinToInterrupt(encoderA), handleEncoder, RISING);
-
-
-
-##  Simulation (TinkerCad)
-
-You can view and test the full circuit and code on TinkerCad:  
-
- *TinkerCad Project Link:*  
-*https://www.tinkercad.com/things/6MDvf5pSmuo-q3ass/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard*
